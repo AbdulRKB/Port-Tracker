@@ -28,4 +28,5 @@ $ python3 main.py
 - `git`
 - `pip`
 - `nmap`
+- `rich`
 
