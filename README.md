@@ -1,32 +1,27 @@
-### WARNING 
+# Port Tracker
+Scans for open ports at a given target network.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Warning.svg/832px-Warning.svg.png" width="30" height="30"/> This tool is made for Educational Purposes Only, I am not responsible for your actions
+## Disclaimer
 
+This script is for educational purposes only. Use it at your own risk. The author is not responsible for any damages caused by this script.
 
-### Features
-  - Live view
-  - Good Interface
+## Usage
 
-### Installation
+To use this script, run the following command in your terminal:
 
-- Just, Clone this repository -
+```bash
+python port_scanner.py <target_IP_address> <start_port_number> <end_port_number>
 ```
-$ git clone git://github.com/CyberTitus/Port-Engine-Track.git
-```
+## Requirements
 
-- Change to cloned directory, install dependencies & run `main.py` -
-```
-$ cd Port-Engine-Track
-$ sudo pip install -r requirements.txt
-$ python3 main.py
-```
+The following libraries need to be installed before using this tool:
 
-### Dependencies
-
-**`Port-Engine-Track`** requires following programs to run properly - 
-- `python3`
-- `git`
-- `pip`
 - `nmap`
 - `rich`
 
+You can install these libraries using the following commands:
+
+```bash
+pip install python-nmap
+pip install rich
+```
